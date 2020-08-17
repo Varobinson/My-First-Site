@@ -1,0 +1,98 @@
+/* Master Styles */
+
+* {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    
+}
+
+ .container {
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+
+ /* Nav Styles */
+
+.nav-wrapper{
+    display: flex ;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left {
+    display: flex;
+
+}
+
+.nav-wrapper > .left > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none ;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid white;
+
+}
+.nav-link-wrapper a:hover {
+    color: white;
+
+}
+
+.right{
+    color: white;
+}
+
+/* Portfolio Styles */
+#pic{
+    display: flex;
+    justify-content: center;
+}
+
+#pic img{
+    display: block;
+    height: 500px;
+    text-align: center ;
+
+}
+
+h1{
+   
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    margin: 10px;
+}
+
+p{
+    margin-left: 20px;
+    color: white;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
