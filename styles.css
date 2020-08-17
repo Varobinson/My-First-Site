@@ -93,6 +93,11 @@ ul{
 
 a{
     color: white;
-    font-weight: bold;
     margin-bottom: 40px;
+}
+
+i{
+    
+    margin-bottom: 20px;
+    margin-left: 15px;
 }
