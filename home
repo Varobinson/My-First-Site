@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio HomePage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="nav-wrapper">
+                <div class="left">
+                    <div class="nav-link-wrapper">
+                        <a href="index.html">Home</a>
+                        
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="#about">About</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="brand">
+                        <div>Vincent Robinson</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="content-wrapper">
+
+                </div>
+            </nav>
+         </div>
+         <div id='pic'>
+             <img  src="DSC08831.jpg" alt="photo of vincent robinson">
+        </div>
+        <div id="heading">
+            <h1>Welcome to My First Site</h1>
+        </div>
+        <div>
+            <h2>About Me</h2>
+            <a name="about"></a>
+            <p>
+                Hi , my name is Vincent Robinson. I am 23 years old and I was born and raised in Atlanta. I'm working toward being a web developer mainly for the freedom it can give you.
+            </p>
+        </div>
+        <div>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Airsofting</li>
+                <li>Soccer</li>
+                <li>Going out with friend</li>
+         </ul>
+         <div>
+             <a class="github-link"><i class="fa fa-github fa-2x" aria-hidden="true" id="git"></i></a>
+             <a class="linkedin-link"><i class="fa fa-linkedin fa-2x" ></i></a>
+         </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
